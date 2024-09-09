@@ -3,6 +3,6 @@ title: 'Users Database'
 openapi: 'POST /users'
 ---
 
-`/users`: 
+`POST /users`: 
 
-This gets the users of the current room. Requires the auth key as a header.
+This gets the users of the current room. Requires the auth key as a header. Does NOT use the same backend as the other endpoints, instead uses the waffle-admin subdomain.

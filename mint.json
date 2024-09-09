@@ -58,7 +58,8 @@
         "api-reference/endpoint/create_room",
         "api-reference/endpoint/messages",
         "api-reference/endpoint/rooms",
-        "api-reference/endpoint/send"
+        "api-reference/endpoint/send",
+        "api-reference/endpoint/users"
       ]
     }
   ]

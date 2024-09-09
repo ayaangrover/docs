@@ -1,0 +1,28 @@
+---
+title: 'Get Messages'
+openapi: 'GET /messages'
+---
+
+This endpoint outputs the encrypted messages. It includes multiple important details about the message, including the user and their profile picture. Here's an example output:
+
+
+```json
+[
+  {
+    "id": "1725765654335",
+    "content": "kVxtJt4CbDq09MMsRxAfNUTI1bIbOV9MFeU5a7I1",
+    "senderID": "VhotCTuvewTJNKbFp29Xi6zC8H53",
+    "roomID": "General",
+    "timestamp": 747458454.203421,
+    "profilePictureURL": "(Picture URL)"
+  },
+  {
+    "id": "1725832151298",
+    "content": "Mgwp733If63AIQJLYlEvTkKes0nzPh1IcXGDJFbT4ErAB8s=",
+    "senderID": "VhotCTuvewTJNKbFp29Xi6zC8H53",
+    "roomID": "General",
+    "timestamp": 747524951.195575,
+    "profilePictureURL": "(Picture URL)"
+  }
+]
+```

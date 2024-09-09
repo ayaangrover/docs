@@ -52,11 +52,13 @@
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Endpoints",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "api-reference/endpoint/clear",
+        "api-reference/endpoint/create_room",
+        "api-reference/endpoint/messages",
+        "api-reference/endpoint/rooms",
+        "api-reference/endpoint/send"
       ]
     }
   ]
